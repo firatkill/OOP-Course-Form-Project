@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  text-align: center;
+  width: 75%;
+  margin-top: 3rem;
+}
+.container .input-group input {
+  font-size: 1.5rem;
+}
+.container .input-group-text i {
+  font-size: 2rem;
+  text-align: center;
+  width: 4rem;
+}
+
+.btn {
+  width: 100%;
+  border: 1px solid;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 3.5rem;
+}
+.card-text {
+  display: flex;
+  justify-content: space-between;
+}
+.deleteBadge {
+  position: Absolute;
+  right: -55px;
+  top: -55px;
+  font-size: 1.5rem;
+  transition: right 1s, top 1s;
+  cursor: pointer;
+}
+.card {
+  overflow: hidden;
+}
+.col:hover .card .deleteBadge {
+  right: 0;
+  top: 0;
+}
